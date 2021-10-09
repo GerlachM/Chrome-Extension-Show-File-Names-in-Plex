@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Display File Names in Plex",
+  "description": "Go to library and choose the FOLDERS view to see all your folders. Inside the folders, the files are shown with the file names as well! You have to set the X-Plex-Token first in the background.js to make it work.",
+  "version": "1.0",
+
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "http://127.0.0.1:32400/*",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
